@@ -1,0 +1,37 @@
+@import 'font-family';
+@import 'color';
+@import 'mixin';
+@import 'function';
+body {
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-family:$font-stack;
+	text-rendering: optimizeLegibility;
+}
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+h2:after {
+	display:block;
+	height:2px;
+	background-color:$color-red;
+	content:"";
+	width:100px;
+	margin-top:5px;
+	margin:0 auto;
+}
+h2 {
+	font-size:280%;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+.btn-huge{
+	padding: 12px 22px;
+    font-size: 110%;
+    @include border-radius(5px);
+    @include transition(background-color,0.2s);
+}
