@@ -7295,8 +7295,7 @@ h2:after {
   background-color: #d9534f;
   content: "";
   width: 100px;
-  margin-top: 5px;
-  margin: 0 auto; }
+  margin: 10px auto 0 auto; }
 
 h2 {
   font-size: 280%;
@@ -7317,8 +7316,8 @@ h2 {
   transition: background-color 0.2s; }
 
 #hero {
-  padding: 80px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../i/content/hero2.jpg");
+  padding: 100px 0;
+  background: linear-gradient(to left, rgba(86, 180, 211, 0.3), rgba(52, 143, 80, 0.3), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../i/content/hero2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7327,7 +7326,7 @@ h2 {
   background-attachment: fixed;
   text-align: center; }
   #hero .title-hero {
-    margin-top: 140px;
+    margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
     color: #fff; }
@@ -7342,24 +7341,65 @@ h2 {
       letter-spacing: 1px;
       line-height: 145%; }
 
-#process {
+#mission {
   padding: 50px 0;
   text-align: center; }
-  #process p {
+  #mission p {
     text-align: justify;
-    line-height: 145%; }
-  #process h3 {
+    line-height: 145%;
+    width: 90%;
+    margin-left: 5%; }
+  #mission h3 {
     font-size: 110%;
     text-transform: uppercase;
     display: inline-block;
     margin-top: 20px; }
-  #process .icon-big {
+  #mission .icon-big {
     font-size: 200%; }
-  #process i {
+  #mission i {
     margin-left: 3%;
     color: #d9534f; }
-  #process h2 {
+  #mission h2 {
     margin-bottom: 45px; }
+
+#process {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../i/content/hero1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center; }
+  #process p {
+    line-height: 145%; }
+  #process h2 {
+    margin-bottom: 80px;
+    color: #fff; }
+  #process .panel {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff; }
+  #process .panel-title {
+    border-bottom: 1px solid transparent;
+    background-color: #d9534f;
+    padding: 2px 15px;
+    color: #fff; }
+
+#order {
+  padding: 80px 0;
+  background-color: rgba(0, 0, 0, 0.1); }
+  #order h3 {
+    font-size: 140%;
+    text-align: center;
+    color: #d9534f;
+    text-transform: uppercase; }
+  #order p {
+    text-align: justify;
+    line-height: 145%; }
+  #order h2 {
+    text-align: center;
+    margin-bottom: 45px; }
+  #order .right-part {
+    margin-top: 15px; }
 
 #logo-dasp {
   width: 100px; }
@@ -7370,7 +7410,11 @@ h2 {
 
 .navbar-inverse ul li a {
   font-size: 16px;
-  margin-top: 3px;
-  color: #ddd; }
+  margin-top: 3px; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff; }
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #d3d3d3; }
 
 /*# sourceMappingURL=app.css.map */
