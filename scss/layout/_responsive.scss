@@ -1,0 +1,21 @@
+// mobile layout
+@media (max-width: 768px) {
+	#hero {
+	.navbar-inverse {
+		background-color: #2b2b2b;
+		.navbar-toggle {
+	    border:none;
+	    &:hover {
+	    	border:none;
+	    	background:transparent;
+	    	}
+    	}
+ 	}
+	.title-hero  {
+		margin-top:5px;
+		margin-bottom:5px;
+		text-align:center;
+		}
+	}
+
+}
