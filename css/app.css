@@ -7418,14 +7418,15 @@ h2 {
     color: #d3d3d3; }
 
 @media (max-width: 768px) {
-  #hero .navbar-inverse {
+  .navbar-inverse {
     background-color: #2b2b2b; }
-    #hero .navbar-inverse .navbar-toggle {
+    .navbar-inverse .navbar-toggle {
       border: none; }
-      #hero .navbar-inverse .navbar-toggle:hover {
+      .navbar-inverse .navbar-toggle:hover {
         border: none;
         background: transparent; }
-  #hero .title-hero {
+
+  .title-hero {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center; } }
