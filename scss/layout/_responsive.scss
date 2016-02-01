@@ -1,16 +1,25 @@
 // mobile layout
 @media (max-width: 768px) {
-	.navbar-inverse {
-		background-color: #2b2b2b;
+
 		.navbar-toggle {
 		    border:none;
-		&:hover {
-		    	border:none;
-		    	background:transparent;
-		    	}
-	    	}
-	 	}
+			&:hover {
+			    	border:none;
+			    	background:transparent;
+			    	}
+			&:active {
+					background-color: transparent;
+			}
+			&:focus {
+					background-color:transparent;
+			}
+					}
+
+		.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+			background: transparent;
+			opacity: .8;
+		}
 	 #hero .title-hero h1 {
-	 	font-size:200%;
+	 	font-size:300%;
 	 }
 }

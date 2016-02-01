@@ -1,7 +1,7 @@
 // SECTION HERO
 #hero {
 	padding:80px 0;
-	background:linear-gradient(to left,rgba(86,180,211,0.3),rgba(52,143,80,0.3),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../i/content/hero2.jpg');
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../i/content/hero2.jpg');
 // 	background: #348F50; /* fallback for old browsers */
 // 	background: -webkit-linear-gradient(to left, #348F50 , #56B4D3); /* Chrome 10-25, Safari 5.1-6 */
 // background: linear-gradient(to left, #348F50 , #56B4D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -10,8 +10,10 @@
 	background-attachment: fixed;
 	text-align:center;
 	.title-hero  {
-		margin-top:100px;
-		margin-bottom:50px;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
 		text-align:center;
 		color:$color-white;
 		h1 {
@@ -25,6 +27,7 @@
 		p {
 			letter-spacing: 1px;
 			line-height: 145%;
+			margin-bottom:50px;
 		}
 	}
 }
@@ -38,15 +41,16 @@
 		width:90%;
 		margin-left:5%;
 	}
+
+
+
 	h3 {
 		font-size:110%;
 		text-transform: uppercase;
 		display:inline-block;
 		margin-top:20px;
 	}
-	.icon-big {
-			font-size:200%;
-	}
+	
 	i {
 		margin-left:3%;
 		color:$color-red;
@@ -58,7 +62,7 @@
 }
 // process
 #process {
-	
+
 	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../i/content/hero1.jpg');
 	@include background(cover);
 	padding:80px 0;
@@ -71,7 +75,7 @@
 		color:$color-white;
 	}
 	.panel {
-		
+
 		background:rgba(0,0,0,0.5);
 		color:$color-white;
 	}
@@ -80,10 +84,10 @@
 		background-color:$color-red;
 		padding: 2px 15px;
 		color:$color-white;
-		
+
 	}
 }
-// order 
+// order
 #order {
 	padding:80px 0;
 	// background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../i/content/hero.jpg');
@@ -107,4 +111,58 @@
 	.right-part {
 		margin-top:15px;
 	}
+}
+//animation waypoint
+
+.waypoint-1,
+.waypoint-2,
+.waypoint-3 {
+	opacity: 0;
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+
+.waypoint-1.animated,
+.waypoint-2.animated,
+.waypoint-3.animated
+{
+	opacity: 1;
+}
+
+.waypoint-pulse-1 {
+	opacity: 0;
+
+
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+	 animation-delay: 1s;
+}
+.waypoint-pulse-2 {
+	opacity: 0;
+
+
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+	 animation-delay: 2s;
+}
+.waypoint-pulse-3 {
+	opacity: 0;
+
+
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+	 animation-delay: 3s;
+}
+
+.waypoint-pulse-1,
+.waypoint-pulse-2,
+.waypoint-pulse-3
+ {
+	opacity: 1;
 }

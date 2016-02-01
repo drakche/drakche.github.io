@@ -29,11 +29,14 @@ h2 {
 	font-size:280%;
 	letter-spacing: 1px;
 	font-weight: 300;
-	
+
 }
 .btn-huge{
 	padding: 12px 22px;
     font-size: 110%;
     @include border-radius(5px);
     @include transition(background-color,0.2s);
+}
+.icon-big {
+		font-size:200%;
 }

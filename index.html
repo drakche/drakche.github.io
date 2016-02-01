@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="css/app.css">
     <!-- google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.css">
   </head>
-  
+
   <body>
     <header>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -22,15 +23,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="i/content/logodasp.png" alt="Logo"id="logo-dasp"></a>
+            <a class="navbar-brand" href="#hero"><img src="i/content/logodasp.png" alt="Logo"id="logo-dasp"></a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Our mission</a></li>
-              <li><a href="#">Process</a></li>
-              <li><a href="#">Order</a></li>
-              <li><a href="#">Sign up</a></li>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#mission">Our mission</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#order">Order</a></li>
+              <li><a href="#order">Sign up</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -42,8 +43,9 @@
       <div class="title-hero">
         <h1>We create free time</h1>
         <p>On-demand delivery service at your fingertips</p>
+        <a href="#mission"><button type="button" class="btn btn-danger btn-huge">Get Started</button></a>
       </div>
-      <button type="button" class="btn btn-danger btn-huge">Get Started</button>
+
     </div> <!-- end of container -->
   </section>
 
@@ -53,13 +55,13 @@
            <h2>Our mission</h2>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 waypoint-1">
            <h3>Problem</h3>
            <i class="ion-help-circled icon-big"></i>
            <p> We value your free time, and we know that you dont like doing mundane chores and time consuming unnecessary tasks like picking up groceries from the store, going to the fast food joint to get your favourite grub or delivering some packages over the whole city while you could do some more productive stuff.</p>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 waypoint-2">
             <h3>Solution</h3>
             <i class="ion-checkmark-circled icon-big"></i>
             <p> Our idea is that we brign you an on-demand delivery service at your fingertips that is available 24/7 but with a catch! The price - just like the whole experience - is adjusted to you and only you! Your personal delivery man - Dasper - is yours to be! Scroll down to see how its done.</p>
@@ -74,8 +76,7 @@
       <h2>Process</h2>
       </div>
       <div class="row">
-        
-        <div class="col-sm-4">
+        <div class="col-sm-4 waypoint-pulse-1">
           <div class="panel">
             <div class="panel-title">
               <h3>1. Order</h3>
@@ -85,9 +86,9 @@
                 </div>
               </div>
           </div>
-          
 
-        <div class="col-sm-4">
+
+        <div class="col-sm-4 waypoint-pulse-2">
           <div class="panel">
               <div class="panel-title">
                   <h3>2. Choose</h3>
@@ -97,9 +98,9 @@
               </div>
             </div>
           </div>
-        
 
-        <div class="col-sm-4">
+
+        <div class="col-sm-4 waypoint-pulse-3">
           <div class="panel">
             <div class="panel-title">
             <h3>3. Enjoy</h3>
@@ -115,7 +116,7 @@
 
   <section id="order">
     <div class="container">
-      <div class="row">
+      <div class="row waypoint-3">
        <h2>Order</h2>
         <div class="col-md-6">
           <h3>What we do is great</h3>
@@ -143,7 +144,7 @@
         </ul>
       </div>
       <br>
-      
+
       <div class="form-group">
         <a href="#" data-target="#thankYou" data-toggle="modal" class="btn btn-danger btn-lg btn-block">Sign up</a>
       </div>
@@ -153,15 +154,31 @@
       </div> <!-- container -->
     </section>
 
-  <!--   <footer>
-      <div class="container">
-        
-      </div>
-    </footer> -->
+   <footer>
+     <div class="container">
+          <div class="col-md-6">
+            <p>dasp 2016</p>
+          </div>
+          <div class="col-md-6 text-right">
+              <a href="#hero"><i class="ion-social-facebook icon-big"></i></a>
+              <a href="#hero"><i class="ion-social-instagram-outline icon-big"></i></a>
+              <a href="#hero"><i class="ion-social-twitter icon-big"></i></a>
+
+
+
+          </div>
+      </div> <!--  container -->
+      <a href="#hero"><i class="ion-chevron-up" id="up-scroll"></i></a>
+
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/myscript.js"></script>
+
+
   </body>
 </html>
