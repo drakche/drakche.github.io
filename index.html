@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DASP-We create free time</title>
+    <title>dasp: We create free time</title>
     <link rel="stylesheet" href="css/app.css">
     <!-- google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/animate.css">
+
   </head>
 
   <body>
@@ -31,7 +31,7 @@
               <li><a href="#mission">Our mission</a></li>
               <li><a href="#process">Process</a></li>
               <li><a href="#order">Order</a></li>
-              <li><a href="#order">Sign up</a></li>
+              <li><a href="#modal">Sign up</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -45,7 +45,6 @@
         <p>On-demand delivery service at your fingertips</p>
         <a href="#mission"><button type="button" class="btn btn-danger btn-huge">Get Started</button></a>
       </div>
-
     </div> <!-- end of container -->
   </section>
 
@@ -123,10 +122,62 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eligendi architecto nesciunt velit sequi placeat voluptatibus, a laboriosam, et vitae aliquid beatae quae mollitia fuga dolores distinctio provident eum totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quibusdam iusto nobis nisi impedit distinctio sit voluptas, doloremque repudiandae sapiente nihil, voluptatum dolores perferendis eos, minima officia omnis voluptates. Quam.</p>
         </div>
 
-  <div class="col-md-6">
-  <div class="right-part">
-      <form class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
-        <div class="form-group"> <input type="text" class="form-control input-lg" placeholder="Name">
+      <div class="col-md-6">
+          <div class="right-part">
+              <form class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
+          <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Surname">
+          </div>
+
+          <div class="form-group">
+              <input type="email" class="form-control input-lg" placeholder="Email">
+          </div>
+
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Neighbourhood<span class="caret"></span></button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <br>
+          <div class="form-group">
+            <a href="#" data-target="#thankYou" data-toggle="modal" class="btn btn-danger btn-lg btn-block">Sign up</a>
+          </div>
+            </div>
+         </div>
+       </div>
+     </div> <!-- container -->
+    </section>
+
+   <footer>
+     <div class="container">
+        <div class="col-md-6">
+          <p>dasp 2016</p>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <a href="#hero"><i class="ion-social-facebook icon-small"></i></a>
+          <a href="#hero"><i class="ion-social-instagram-outline icon-small"></i></a>
+          <a href="#hero"><i class="ion-social-twitter icon-small"></i></a>
+        </div>
+
+     </div> <!--  container -->
+      <a href="#hero"><i class="ion-chevron-up" id="up-scroll"></i></a>
+    </footer>
+
+    <!---MODAL-->
+    <div class="remodal" data-remodal-id="modal">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      <img src="i/content/logodasp.png" alt="Logo"id="logo-dasp">
+      <br>
+      <div class="form-group">
+        <input type="text" class="form-control input-lg" placeholder="Name">
       </div>
       <div class="form-group">
         <input type="text" class="form-control input-lg" placeholder="Surname">
@@ -144,33 +195,17 @@
         </ul>
       </div>
       <br>
-
       <div class="form-group">
-        <a href="#" data-target="#thankYou" data-toggle="modal" class="btn btn-danger btn-lg btn-block">Sign up</a>
+        <a href="#ty"class="btn btn-danger btn-lg btn-block">Sign up</a>
       </div>
-      </div>
-        </div>
-        </div>
-      </div> <!-- container -->
-    </section>
+    </div>
+    <!--Modal ty-->
+    <div class="remodal" data-remodal-id="modal" id="ty">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <img src="i/content/logodasp.png" alt="Logo"id="logo-dasp">
+        <p>THANK YOU!</p>
+    </div>
 
-   <footer>
-     <div class="container">
-          <div class="col-md-6">
-            <p>dasp 2016</p>
-          </div>
-          <div class="col-md-6 text-right">
-              <a href="#hero"><i class="ion-social-facebook icon-big"></i></a>
-              <a href="#hero"><i class="ion-social-instagram-outline icon-big"></i></a>
-              <a href="#hero"><i class="ion-social-twitter icon-big"></i></a>
-
-
-
-          </div>
-      </div> <!--  container -->
-      <a href="#hero"><i class="ion-chevron-up" id="up-scroll"></i></a>
-
-    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -178,7 +213,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/myscript.js"></script>
-
-
+    <script src="js/remodal.min.js"></script>
   </body>
 </html>

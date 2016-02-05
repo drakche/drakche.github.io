@@ -1,23 +1,23 @@
 footer {
   padding:25px 0;
-  background-color:$color-nav;
+  background-color:$color-grey;
   position:relative;
   color:$color-white;
   #up-scroll {
     position: absolute;
-    bottom:15px;
-    right:30px;
+    bottom:8px;
+    right:20px;
     font-size:150%;
     color:$color-white;
+
   }
   i {
-    margin-left:15px;
+    margin-left:2%;
     color:$color-white;
+
   }
   p {
     margin-top:5px;
   }
-
-
 
 }

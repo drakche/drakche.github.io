@@ -1,10 +1,8 @@
 // SECTION HERO
 #hero {
-	padding:80px 0;
-	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../i/content/hero2.jpg');
-// 	background: #348F50; /* fallback for old browsers */
-// 	background: -webkit-linear-gradient(to left, #348F50 , #56B4D3); /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to left, #348F50 , #56B4D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
+	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
+	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
 	@include background(cover);
 	height:96vh;
 	background-attachment: fixed;
@@ -20,9 +18,8 @@
 			text-transform: uppercase;
 			font-size:300%;
 			font-weight: 300;
-			letter-spacing: 5px;
+			letter-spacing: 3px;
 			margin-bottom:10px;
-			font-family:$font-stack;
 		}
 		p {
 			letter-spacing: 1px;
@@ -33,24 +30,21 @@
 }
 // mission
 #mission {
-	padding:50px 0;
 	text-align:center;
 	p {
 		text-align:justify;
-		line-height: 145%;
 		width:90%;
 		margin-left:5%;
+
 	}
 
-
-
 	h3 {
-		font-size:110%;
+		font-size:120%;
 		text-transform: uppercase;
 		display:inline-block;
 		margin-top:20px;
 	}
-	
+
 	i {
 		margin-left:3%;
 		color:$color-red;
@@ -58,24 +52,19 @@
 	h2 {
 		margin-bottom:45px;
 	}
-
 }
 // process
 #process {
-
-	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../i/content/hero1.jpg');
+	background:-webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../i/content/hero1.jpg');
+	background:-o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../i/content/hero1.jpg');
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../i/content/hero1.jpg');
 	@include background(cover);
-	padding:80px 0;
 	text-align:center;
-	p {
-		line-height:145%;
-	}
 	h2 {
 		margin-bottom:80px;
 		color:$color-white;
 	}
 	.panel {
-
 		background:rgba(0,0,0,0.5);
 		color:$color-white;
 	}
@@ -89,9 +78,6 @@
 }
 // order
 #order {
-	padding:80px 0;
-	// background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../i/content/hero.jpg');
-	// @include background(cover);
 	background-color:rgba(0,0,0,0.1);
 	h3 {
 		font-size: 140%;
@@ -102,7 +88,7 @@
 	}
 	p {
 		text-align: justify;
-		line-height: 145%;
+
 	}
 	h2 {
 		text-align:center;
@@ -165,4 +151,23 @@
 .waypoint-pulse-3
  {
 	opacity: 1;
+}
+//modal
+
+.remodal {
+	background:rgba(0,0,0,0.45);
+	#logo-dasp {
+		margin-bottom:15px;
+	}
+	.form-group {
+		width:60%;
+		margin-left:20%;
+		background:rgba(0,0,0,0.45);
+
+	}
+	.dropdown {
+		text-align:left;
+		margin-left:20%;
+	}
+
 }
