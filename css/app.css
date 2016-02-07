@@ -9839,9 +9839,9 @@ h3 {
   font-family: "Lato", sans-serif; }
 
 #hero {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10018,9 +10018,9 @@ footer {
     margin-top: 5px; }
 
 #footer-links {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
