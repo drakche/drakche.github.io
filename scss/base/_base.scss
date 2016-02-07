@@ -9,6 +9,8 @@ body {
 	font-size:20px;
 	font-family:$font-stack;
 	text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+
 }
 a {
 	text-decoration: none;
