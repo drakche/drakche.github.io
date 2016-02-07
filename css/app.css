@@ -9817,8 +9817,7 @@ h2 {
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
-  transition: background-color 0.2s;
-  box-shadow: 3px 3px 25px #000; }
+  transition: background-color 0.2s; }
 
 .icon-big {
   font-size: 200%; }
@@ -9839,9 +9838,9 @@ h3 {
   font-family: "Lato", sans-serif; }
 
 #hero {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9978,7 +9977,7 @@ h3 {
 
 .navbar-inverse {
   border: none;
-  background: rgba(0, 0, 0, 0.45); }
+  background: rgba(0, 0, 0, 0.25); }
 
 .navbar-inverse ul li a {
   font-size: 80%;
@@ -9997,7 +9996,7 @@ h3 {
   background: rgba(0, 0, 0, 0.45); }
 
 footer {
-  padding: 25px 0;
+  padding: 5px 0;
   background-color: #2b2b2b;
   position: relative;
   color: #fff; }
@@ -10012,6 +10011,31 @@ footer {
     color: #fff; }
   footer p {
     margin-top: 5px; }
+
+#footer-links {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/12345.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  background-attachment: fixed;
+  text-align: center; }
+  #footer-links p {
+    text-align: justify;
+    font-size: 75%; }
+  #footer-links h4 {
+    text-align: left;
+    color: #fff; }
+  #footer-links #links-row {
+    margin: 0 auto; }
+  #footer-links a {
+    text-decoration: none;
+    color: #d3d3d3; }
+    #footer-links a:hover {
+      color: #fff; }
 
 @media (max-width: 768px) {
   .navbar-toggle {

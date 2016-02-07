@@ -23,9 +23,9 @@ $('.waypoint-3').waypoint(function(direction) {
 
 $('#mission').waypoint(function(direction){
         if(direction == 'down'){
-            $('nav').addClass('nav-solid')
+            $('nav').addClass('nav-solid');
         } else {
-            $('nav').removeClass('nav-solid')
+            $('nav').removeClass('nav-solid');
         }
     }, {
         offset: '80px'
@@ -67,3 +67,5 @@ $('#mission').waypoint(function(direction){
         }
       });
     });
+
+    //mobile js

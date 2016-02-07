@@ -36,7 +36,6 @@ h2 {
     font-size: 110%;
     @include border-radius(5px);
     @include transition(background-color,0.2s);
-		box-shadow: 3px 3px 25px $color-black;
 }
 .icon-big {
 		font-size:200%;

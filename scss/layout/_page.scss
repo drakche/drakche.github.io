@@ -1,8 +1,8 @@
 // SECTION HERO
 #hero {
-	background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
-	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
-	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
+	background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/12345.jpg');
+	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/12345.jpg');
+	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/12345.jpg');
 	@include background(cover);
 	height:96vh;
 	background-attachment: fixed;
