@@ -57,3 +57,16 @@ h2,
 h3 {
 	font-family:$font-stack;
 }
+// svg icons
+.svg-icon {
+  width: 1.6em;
+  height: 1.6em;
+	margin-left:1.2%;
+	margin-bottom:-6px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: $color-red;
+}

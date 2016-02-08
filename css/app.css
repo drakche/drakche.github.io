@@ -9838,6 +9838,17 @@ h2,
 h3 {
   font-family: "Lato", sans-serif; }
 
+.svg-icon {
+  width: 1.6em;
+  height: 1.6em;
+  margin-left: 1.2%;
+  margin-bottom: -6px; }
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #d9534f; }
+
 #hero {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
   background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
@@ -9873,6 +9884,9 @@ h3 {
     text-align: justify;
     width: 90%;
     margin-left: 5%; }
+  #mission #problem-left-col {
+    border-right: 1px solid #e5e5e5;
+    height: 50%; }
   #mission h3 {
     font-size: 120%;
     text-transform: uppercase;
