@@ -16,19 +16,19 @@ $('.waypoint-2').waypoint(function(direction) {
 $('.waypoint-3').waypoint(function(direction) {
   $('.waypoint-3').addClass('animated fadeIn');
 }, {
-  offset: '75%'
+  offset: '80%'
 }
 );
 // nav transparent changer
 
 $('#mission').waypoint(function(direction){
         if(direction == 'down'){
-            $('nav').addClass('nav-solid');
+            $('nav').addClass('nav-solid animated fadeIn');
         } else {
             $('nav').removeClass('nav-solid');
         }
     }, {
-        offset: '80px'
+        offset: '95%'
     });
     //process pulse
 

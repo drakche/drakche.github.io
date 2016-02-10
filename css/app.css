@@ -9842,7 +9842,8 @@ h3 {
   width: 1.6em;
   height: 1.6em;
   margin-left: 1.2%;
-  margin-bottom: -6px; }
+  margin-bottom: -6px;
+  stroke-width: 1; }
 
 .svg-icon path,
 .svg-icon polygon,
@@ -9857,9 +9858,18 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 96vh;
+  height: 100vh;
   background-attachment: fixed;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+  #hero #triangle-shape {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    display: block;
+    z-index: 99;
+    bottom: 0;
+    left: 0; }
   #hero .title-hero {
     position: absolute;
     top: 50%;
@@ -9934,6 +9944,18 @@ h3 {
   #order .right-part {
     margin-top: 15px; }
 
+.remodal {
+  background: rgba(0, 0, 0, 0.45); }
+  .remodal #logo-dasp {
+    margin-bottom: 15px; }
+  .remodal .form-group {
+    width: 60%;
+    margin-left: 20%;
+    background: rgba(0, 0, 0, 0.45); }
+  .remodal .dropdown {
+    text-align: left;
+    margin-left: 20%; }
+
 .waypoint-1,
 .waypoint-2,
 .waypoint-3 {
@@ -9975,18 +9997,6 @@ h3 {
 .waypoint-pulse-3 {
   opacity: 1; }
 
-.remodal {
-  background: rgba(0, 0, 0, 0.45); }
-  .remodal #logo-dasp {
-    margin-bottom: 15px; }
-  .remodal .form-group {
-    width: 60%;
-    margin-left: 20%;
-    background: rgba(0, 0, 0, 0.45); }
-  .remodal .dropdown {
-    text-align: left;
-    margin-left: 20%; }
-
 #logo-dasp {
   width: 100px; }
 
@@ -10023,8 +10033,7 @@ footer {
     position: absolute;
     bottom: 8px;
     right: 20px;
-    font-size: 150%;
-    color: #fff; }
+    font-size: 100%; }
   footer i {
     margin-left: 2%;
     color: #fff; }
