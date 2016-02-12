@@ -9900,40 +9900,19 @@ h3 {
     margin-bottom: 45px; }
 
 #process {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../i/content/hero1.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../i/content/hero1.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../i/content/hero1.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center; }
+  text-align: center;
+  background: #f5f5f5; }
   #process h2 {
-    margin-bottom: 80px;
-    color: #fff; }
-  #process .panel {
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff; }
-  #process .panel-title {
-    border-bottom: 1px solid transparent;
-    background-color: #d9534f;
-    padding: 2px 15px;
-    color: #fff; }
+    margin-bottom: 50px; }
+  #process .icon-process {
+    width: 150px;
+    margin-bottom: 15px; }
 
-#order {
-  background-color: rgba(0, 0, 0, 0.1); }
-  #order h3 {
-    font-size: 140%;
-    text-align: center;
-    color: #d9534f;
-    text-transform: uppercase; }
-  #order p {
-    text-align: justify; }
-  #order h2 {
-    text-align: center;
-    margin-bottom: 45px; }
-  #order .right-part {
-    margin-top: 15px; }
+#users h3 {
+  font-size: 140%;
+  text-align: center;
+  color: #d9534f;
+  text-transform: uppercase; }
 
 .remodal {
   background: rgba(0, 0, 0, 0.45); }
@@ -9947,58 +9926,12 @@ h3 {
     text-align: left;
     margin-left: 20%; }
 
-.waypoint-1,
-.waypoint-2,
-.waypoint-3 {
-  opacity: 0;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s; }
-
-.waypoint-1.animated,
-.waypoint-2.animated,
-.waypoint-3.animated {
-  opacity: 1; }
-
-.waypoint-pulse-1 {
-  opacity: 0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-delay: 1s;
-  /* Chrome, Safari, Opera */
-  animation-delay: 1s; }
-
-.waypoint-pulse-2 {
-  opacity: 0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-delay: 2s;
-  /* Chrome, Safari, Opera */
-  animation-delay: 2s; }
-
-.waypoint-pulse-3 {
-  opacity: 0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-delay: 3s;
-  /* Chrome, Safari, Opera */
-  animation-delay: 3s; }
-
-.waypoint-pulse-1,
-.waypoint-pulse-2,
-.waypoint-pulse-3 {
-  opacity: 1; }
-
 #logo-dasp {
   width: 100px; }
 
 .navbar-inverse {
   border: none;
-  background: transparent;
-  /*border-bottom:1px solid rgba(255,255,255,.1);*/
-  /*border-top:4px solid $color-red;*/ }
-
-.navbar-fixed-top {
-  top: 10px; }
+  background: rgba(0, 0, 0, 0.2); }
 
 .navbar-inverse ul li a {
   font-size: 80%;
@@ -10013,9 +9946,6 @@ h3 {
   background: #2b2b2b;
   z-index: 9999;
   top: 0; }
-
-.nav-transparent {
-  background: rgba(0, 0, 0, 0.45); }
 
 footer {
   padding: 5px 0;

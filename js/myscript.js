@@ -1,26 +1,5 @@
 
-//fade in mission
-$('.waypoint-1').waypoint(function(direction) {
-  $('.waypoint-1').addClass('animated fadeInLeft');
-}, {
-  offset: '75%'
-}
-);
-
-$('.waypoint-2').waypoint(function(direction) {
-  $('.waypoint-2').addClass('animated fadeInRight');
-}, {
-  offset: '75%'
-}
-);
-$('.waypoint-3').waypoint(function(direction) {
-  $('.waypoint-3').addClass('animated fadeIn');
-}, {
-  offset: '80%'
-}
-);
 // nav transparent changer
-
 $('#mission').waypoint(function(direction){
         if(direction == 'down'){
             $('nav').addClass('nav-solid animated fadeIn');
@@ -30,28 +9,6 @@ $('#mission').waypoint(function(direction){
     }, {
         offset: '95%'
     });
-    //process pulse
-
-    $('.waypoint-pulse-1').waypoint(function(direction) {
-      $('.waypoint-pulse-1').addClass('animated pulse');
-    }, {
-      offset: '75%'
-    }
-    );
-
-    $('.waypoint-pulse-2').waypoint(function(direction) {
-      $('.waypoint-pulse-2').addClass('animated pulse');
-    }, {
-      offset: '75%'
-    }
-    );
-    $('.waypoint-pulse-3').waypoint(function(direction) {
-      $('.waypoint-pulse-3').addClass('animated pulse');
-    }, {
-      offset: '75%'
-    }
-    );
-
 
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {

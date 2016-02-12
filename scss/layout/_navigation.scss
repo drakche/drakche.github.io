@@ -3,14 +3,7 @@
 }
 .navbar-inverse {
 	border:none;
-	//background:rgba(0,0,0,0.25);
-	background:transparent;
-	/*border-bottom:1px solid rgba(255,255,255,.1);*/
-	/*border-top:4px solid $color-red;*/
-
-}
-.navbar-fixed-top {
-	top:10px;
+	background:rgba(0,0,0,0.2);
 }
 .navbar-inverse ul li a {
 	font-size:80%;
@@ -29,8 +22,4 @@
 	z-index: 9999;
 	top:0;
 
-}
-//nav-transparent
-.nav-transparent {
-		background:rgba(0,0,0,0.45);
 }
