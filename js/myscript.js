@@ -2,7 +2,7 @@
 // nav transparent changer
 $('#mission').waypoint(function(direction){
         if(direction == 'down'){
-            $('nav').addClass('nav-solid animated fadeIn');
+            $('nav').addClass('nav-solid');
         } else {
             $('nav').removeClass('nav-solid');
         }
@@ -26,3 +26,4 @@ $('#mission').waypoint(function(direction){
     });
 
     //mobile js
+  
