@@ -72,11 +72,31 @@
 }
 // users
 #users {
-	h3 {
-		font-size: 140%;
+	h2 {
 		text-align:center;
-		color:$color-red;
-		text-transform: uppercase;
+		margin-bottom:50px;
+	}
+	p {
+		text-align:justify;
+		margin-bottom:15px;
+	}
+	#dasper_1_row {
+		margin-bottom:50px;
+		text-align:center;
+		padding-bottom:50px;
+		margin-right:0;
+		margin-left:0;
+
+	}
+	#dasper_2_row,
+	#dasper_3_row {
+		@extend #dasper_1_row;
+	}
+	.icon-users {
+		width:150px;
+	}
+	.btn-medium {
+		padding:11px 50px;
 	}
 }
 //modal

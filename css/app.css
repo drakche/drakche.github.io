@@ -9908,11 +9908,23 @@ h3 {
     width: 150px;
     margin-bottom: 15px; }
 
-#users h3 {
-  font-size: 140%;
+#users h2 {
   text-align: center;
-  color: #d9534f;
-  text-transform: uppercase; }
+  margin-bottom: 50px; }
+#users p {
+  text-align: justify;
+  margin-bottom: 15px; }
+#users #dasper_1_row, #users #dasper_2_row,
+#users #dasper_3_row {
+  margin-bottom: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-right: 0;
+  margin-left: 0; }
+#users .icon-users {
+  width: 150px; }
+#users .btn-medium {
+  padding: 11px 50px; }
 
 .remodal {
   background: rgba(0, 0, 0, 0.45); }
