@@ -9862,7 +9862,7 @@ video {
 
 #hero {
   text-align: center;
-  height: 100vh;
+  height: 96vh;
   position: relative; }
   #hero .title-hero {
     position: absolute;
@@ -9949,7 +9949,7 @@ video {
 
 .navbar-inverse {
   border: none;
-  background: rgba(0, 0, 0, 0.5); }
+  background: rgba(0, 0, 0, 0.3); }
 
 .navbar-inverse ul li a {
   font-size: 80%;
