@@ -1,9 +1,9 @@
 //hero
 #hero {
 	text-align:center;
-	background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero6.jpg');
-	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero6.jpg');
-	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero6.jpg');
+	background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/photo2.jpg');
+	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/photo2.jpg');
+	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/photo2.jpg');
 	@include background(cover);
 	height:96vh;
 	background-attachment: fixed;
@@ -66,7 +66,7 @@
 	}
 	.icon-process {
 		width:150px;
-		margin-bottom:25px;
+		margin-bottom:5px;
 	}
 
 }
