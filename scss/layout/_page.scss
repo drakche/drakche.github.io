@@ -1,9 +1,9 @@
 //hero
 #hero {
 	text-align:center;
-	background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
-	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
-	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
+	background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero6.jpg');
+	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero6.jpg');
+	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero6.jpg');
 	@include background(cover);
 	height:96vh;
 	background-attachment: fixed;
@@ -88,9 +88,13 @@
 		margin-left:0;
 
 	}
-	#dasper_2_row,
-	#dasper_3_row {
+	#dasper_2_row {
 		@extend #dasper_1_row;
+	}
+	#dasper_3_row {
+		text-align:center;
+		margin-right:0;
+		margin-left:0;
 	}
 	.icon-users {
 		width:150px;

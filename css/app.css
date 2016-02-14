@@ -9852,9 +9852,9 @@ h3 {
 
 #hero {
   text-align: center;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero6.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero6.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero6.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9914,11 +9914,14 @@ h3 {
 #users p {
   text-align: justify;
   margin-bottom: 15px; }
-#users #dasper_1_row, #users #dasper_2_row,
-#users #dasper_3_row {
+#users #dasper_1_row, #users #dasper_2_row {
   margin-bottom: 100px;
   text-align: center;
   padding-bottom: 50px;
+  margin-right: 0;
+  margin-left: 0; }
+#users #dasper_3_row {
+  text-align: center;
   margin-right: 0;
   margin-left: 0; }
 #users .icon-users {
