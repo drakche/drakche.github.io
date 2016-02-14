@@ -9851,16 +9851,19 @@ h3 {
 .svg-icon rect {
   fill: #d9534f; }
 
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%; }
+
 #hero {
   text-align: center;
-  height: 92vh;
+  height: 96vh;
   position: relative; }
-  #hero video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%; }
   #hero .title-hero {
     position: absolute;
     top: 50%;
@@ -9946,7 +9949,7 @@ h3 {
 
 .navbar-inverse {
   border: none;
-  background: rgba(0, 0, 0, 0.2); }
+  background: rgba(0, 0, 0, 0.3); }
 
 .navbar-inverse ul li a {
   font-size: 80%;
@@ -9981,10 +9984,7 @@ footer {
 #footer-links {
   background: #333;
   padding: 50px 0;
-  background-attachment: fixed;
   text-align: center; }
-  #footer-links .links-title {
-    margin-top: 15px; }
   #footer-links p {
     text-align: justify;
     font-size: 75%; }
@@ -10015,6 +10015,21 @@ footer {
     opacity: .8; }
 
   #hero .title-hero h1 {
-    font-size: 300%; } }
+    font-size: 300%; }
+
+  #hero video {
+    display: none; }
+
+  #hero {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero.jpg");
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 96vh;
+    background-attachment: fixed;
+    text-align: center; } }
 
 /*# sourceMappingURL=app.css.map */
