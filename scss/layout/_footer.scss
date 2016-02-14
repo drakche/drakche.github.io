@@ -20,13 +20,13 @@ footer {
 
 }
 #footer-links {
-  background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
-	background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
-	background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
-	@include background(cover);
-	height:50vh;
+  background:$color-footer;
+	padding:50px 0;
 	background-attachment: fixed;
 	text-align:center;
+  .links-title {
+    margin-top:15px;
+  }
 
   p {
     text-align:justify;
