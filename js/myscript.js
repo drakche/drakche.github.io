@@ -27,15 +27,14 @@ $('#mission').waypoint(function(direction){
 
     //mobile js
 
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+      $('.nav a').on('click', function(){
+          $('.navbar-toggle').click();
+      });
 
-    $('.nav a').on('click', function(){
-        $('.navbar-toggle').click();
+      $('.navbar-toggle').on('click', function(){
+        $('.navbar-inverse').addClass('nav-solid');
+
+
     });
-
-    $('.navbar-toggle').on('click', function(){
-      $('.navbar-inverse').addClass('nav-solid');
-
-
-    });
-
-    
+  }
