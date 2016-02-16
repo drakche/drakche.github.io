@@ -9781,6 +9781,10 @@ html.remodal-is-locked {
 .lt-ie9 .remodal {
   width: 700px; }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
 body {
   margin: 0;
   padding: 0;
