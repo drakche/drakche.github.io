@@ -10048,6 +10048,10 @@ footer {
     border: none; }
 
   #footer-links {
-    display: none; } }
+    display: none; }
+
+  #select-options {
+    width: 60%;
+    margin-left: 20%; } }
 
 /*# sourceMappingURL=app.css.map */
