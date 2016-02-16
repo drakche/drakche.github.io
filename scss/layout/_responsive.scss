@@ -29,7 +29,8 @@
 		background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
 		background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
 		@include background(cover);
-		height:96vh;
+		padding:250px 0;
+		height:100vh;
 		text-align:center;
 	 }
 	 #mission #problem-left-col {
@@ -38,5 +39,6 @@
 	 #footer-links {
 		 display:none;
 	 }
+
 
 }

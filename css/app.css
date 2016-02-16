@@ -9866,7 +9866,7 @@ video {
 
 #hero {
   text-align: center;
-  height: 100vh;
+  height: 98vh;
   position: relative; }
   #hero .title-hero {
     position: absolute;
@@ -9960,6 +9960,9 @@ video {
   font-size: 80%;
   margin-top: 3px; }
 
+.navbar-toggle {
+  margin-top: 14px; }
+
 .navbar-inverse .navbar-nav > li > a {
   color: #fff; }
   .navbar-inverse .navbar-nav > li > a:hover {
@@ -10033,7 +10036,8 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 96vh;
+    padding: 250px 0;
+    height: 100vh;
     text-align: center; }
 
   #mission #problem-left-col {

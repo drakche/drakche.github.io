@@ -26,4 +26,16 @@ $('#mission').waypoint(function(direction){
     });
 
     //mobile js
-  
+
+
+    $('.nav a').on('click', function(){
+        $('.navbar-toggle').click();
+    });
+
+    $('.navbar-toggle').on('click', function(){
+      $('.navbar-inverse').addClass('nav-solid');
+
+
+    });
+
+    
