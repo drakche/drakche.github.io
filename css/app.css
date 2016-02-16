@@ -10035,6 +10035,9 @@ footer {
     background-size: cover;
     height: 96vh;
     background-attachment: fixed;
-    text-align: center; } }
+    text-align: center; }
+
+  #mission #problem-left-col {
+    border: none; } }
 
 /*# sourceMappingURL=app.css.map */
