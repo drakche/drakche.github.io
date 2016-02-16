@@ -10034,10 +10034,12 @@ footer {
     -o-background-size: cover;
     background-size: cover;
     height: 96vh;
-    background-attachment: fixed;
     text-align: center; }
 
   #mission #problem-left-col {
-    border: none; } }
+    border: none; }
+
+  #footer-links {
+    display: none; } }
 
 /*# sourceMappingURL=app.css.map */
