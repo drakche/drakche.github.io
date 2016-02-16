@@ -9862,7 +9862,7 @@ video {
 
 #hero {
   text-align: center;
-  height: 96vh;
+  height: 100vh;
   position: relative; }
   #hero .title-hero {
     position: absolute;
@@ -9922,7 +9922,8 @@ video {
   text-align: center;
   padding-bottom: 50px;
   margin-right: 0;
-  margin-left: 0; }
+  margin-left: 0;
+  border-bottom: 1px solid #e5e5e5; }
 #users #dasper_3_row {
   text-align: center;
   margin-right: 0;
@@ -9949,7 +9950,7 @@ video {
 
 .navbar-inverse {
   border: none;
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.5); }
 
 .navbar-inverse ul li a {
   font-size: 80%;
