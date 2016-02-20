@@ -46,3 +46,17 @@
 
 
 }
+@media (max-width: 1200px) {
+	#hero video {
+		display:none;
+	}
+	#hero {
+	 background:-webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero.jpg');
+	 background:-o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
+	 background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../i/content/hero2.jpg');
+	 @include background(cover);
+	 padding:250px 0;
+	 height:100vh;
+	 text-align:center;
+	}
+}

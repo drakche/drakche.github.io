@@ -62,20 +62,6 @@ h2,
 h3 {
 	font-family:$font-stack;
 }
-// svg icons
-.svg-icon {
-  width: 1.6em;
-  height: 1.6em;
-	margin-left:1.2%;
-	margin-bottom:-6px;
-	stroke-width:1
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: $color-red;
-}
 video {
 	position:absolute;
 	top:50%;
@@ -84,7 +70,7 @@ video {
 	width:100%;
 	min-width: 100%;
 	min-height: 100%;
-
+  margin-top: -42px;
 }
 #select-options {
   width:20%;

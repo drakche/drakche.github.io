@@ -9843,18 +9843,6 @@ h2,
 h3 {
   font-family: "Lato", sans-serif; }
 
-.svg-icon {
-  width: 1.6em;
-  height: 1.6em;
-  margin-left: 1.2%;
-  margin-bottom: -6px;
-  stroke-width: 1; }
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #d9534f; }
-
 video {
   position: absolute;
   top: 50%;
@@ -9862,7 +9850,8 @@ video {
   transform: translate(-50%, -50%);
   width: 100%;
   min-width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  margin-top: -42px; }
 
 #select-options {
   width: 20%;
@@ -10053,5 +10042,20 @@ footer {
   #select-options {
     width: 60%;
     margin-left: 20%; } }
+@media (max-width: 1200px) {
+  #hero video {
+    display: none; }
+
+  #hero {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero.jpg");
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../i/content/hero2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 250px 0;
+    height: 100vh;
+    text-align: center; } }
 
 /*# sourceMappingURL=app.css.map */
