@@ -9857,6 +9857,24 @@ video {
   width: 20%;
   margin-left: 20%; }
 
+.notification-bar {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #2b2b2b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  z-index: 99999; }
+  .notification-bar i {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 150%;
+    color: white; }
+
 #hero {
   text-align: center;
   height: 98vh;
@@ -10056,6 +10074,12 @@ footer {
     background-size: cover;
     padding: 250px 0;
     height: 100vh;
-    text-align: center; } }
+    text-align: center; }
+
+  .notification-bar {
+    display: none !important; }
+
+  .navbar-inverse {
+    top: 0 !important; } }
 
 /*# sourceMappingURL=app.css.map */

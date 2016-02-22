@@ -3,12 +3,15 @@
 $('#mission').waypoint(function(direction){
         if(direction == 'down'){
             $('nav').addClass('nav-solid');
+            $('.notification-bar').css('display', 'none');
+            $('.navbar-inverse').css('top', '0');
         } else {
             $('nav').removeClass('nav-solid');
         }
     }, {
         offset: '95%'
     });
+
 
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
@@ -36,3 +39,15 @@ $('#mission').waypoint(function(direction){
 
 
     });
+// notification-bar
+$(".notification-bar").delay(0).slideDown();
+$(".navbar-inverse").delay(0).animate({
+  'top': '77px'}, 400
+);
+
+$('#close').click(function(){
+  $('.notification-bar').fadeOut();
+  $('.navbar-inverse').animate({
+    'top': '0'}, 400
+  );
+});
