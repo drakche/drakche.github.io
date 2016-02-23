@@ -40,8 +40,8 @@ $('#mission').waypoint(function(direction){
 
     });
 // notification-bar
-$(".notification-bar").delay(0).slideDown();
-$(".navbar-inverse").delay(0).animate({
+$(".notification-bar").delay(1750).slideDown();
+$(".navbar-inverse").delay(1750).animate({
   'top': '77px'}, 400
 );
 
