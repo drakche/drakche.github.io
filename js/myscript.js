@@ -30,9 +30,11 @@ $('#mission').waypoint(function(direction){
 
     //mobile js
 
-      $('.nav a').on('click', function(){
+    $('.nav a').on('click', function(){
+      if ($(window).width() < 767 ) {
           $('.navbar-toggle').click();
-      });
+        }
+        });
 
       $('.navbar-toggle').on('click', function(){
         $('.navbar-inverse').addClass('nav-solid');
