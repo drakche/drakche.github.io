@@ -32,6 +32,9 @@
 		padding:250px 0;
 		height:100vh;
 		text-align:center;
+		#down_arrow {
+			display:none;
+		}
 	 }
 	 #mission #problem-left-col {
 		 border:none;
@@ -43,7 +46,6 @@
 	   width:60%;
 	   margin-left:20%;
 	 }
-
 
 }
 @media (max-width: 1200px) {

@@ -10059,6 +10059,8 @@ footer {
     padding: 250px 0;
     height: 100vh;
     text-align: center; }
+    #hero #down_arrow {
+      display: none; }
 
   #mission #problem-left-col {
     border: none; }
