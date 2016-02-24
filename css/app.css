@@ -9850,8 +9850,7 @@ video {
   transform: translate(-50%, -50%);
   width: 100%;
   min-width: 100%;
-  min-height: 100%;
-  margin-top: -42px; }
+  min-height: 100%; }
 
 #select-options {
   width: 20%;
@@ -9877,8 +9876,18 @@ video {
 
 #hero {
   text-align: center;
-  height: 98vh;
+  height: 100vh;
   position: relative; }
+  #hero #scroll_down {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 300; }
+    #hero #scroll_down:hover, #hero #scroll_down:active {
+      text-decoration: none;
+      opacity: 0.8; }
   #hero .title-hero {
     position: absolute;
     top: 50%;

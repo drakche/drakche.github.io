@@ -1,8 +1,21 @@
 //hero
 #hero {
 	text-align:center;
-	height:98vh;
+	height:100vh;
 	position:relative;
+	#scroll_down {
+		position:absolute;
+		bottom:2%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		color:$color-white;
+		font-weight:300;
+		&:hover,
+		&:active {
+			text-decoration: none;
+			opacity:0.8;
+		}
+	}
 	.title-hero  {
 		position:absolute;
 		top:50%;
