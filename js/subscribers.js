@@ -67,8 +67,9 @@ $("#signUpButton").click(function(){
 	$.ajax({
 		url:'https://us12.api.mailchimp.com/3.0/lists/b891a37349/members',
 		type: 'POST',
-		username: 'any',
-		password: apiKey,
+		headers: {
+			Authorization: 'Basic ' + btoa('anystring' + ':' + apiKey)
+  		},
 		data: newObject,
 		dataType: 'jsonp',
 		crossDomain: true
