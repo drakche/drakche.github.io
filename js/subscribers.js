@@ -68,7 +68,8 @@ $("#signUpButton").click(function(){
 		url:'https://us12.api.mailchimp.com/3.0/lists/b891a37349/members',
 		type: 'POST',
 		headers: {
-			Authorization: 'Basic anystring:baa6a183159622c2810481cb35574337-us12'
+			Authorization: 'Basic drakche:baa6a183159622c2810481cb35574337-us12',
+			'Content-Type': 'application/json'
   		},
 		data: newObject,
 		dataType: 'jsonp',
