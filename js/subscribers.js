@@ -40,7 +40,18 @@ $("#signUpButton").click(function(){
 
 	membersUrl = listUrl + "/members/";
 	user = "anystring:" + apiKey; 
-
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://us12.api.mailchimp.com/3.0/lists/b891a37349/members",
+  "method": "POST",
+  "headers": {
+    "authorization": "Basic ZHJha2NoZTpiYWE2YTE4MzE1OTYyMmMyODEwNDgxY2IzNTU3NDMzNy11czEy",
+    "cache-control": "no-cache",
+    "postman-token": "fb0da2d3-fe8c-f091-0ecb-88bde2f0520d"
+  },
+  "data": newObject
+}
 	// var request = $.ajax({
 	// 	url: "https://us12.api.mailchimp.com/3.0/lists/b891a37349/members",
 	// 	method: "POST",
@@ -64,17 +75,7 @@ $("#signUpButton").click(function(){
 	// 	alert( "Request failed: " + textStatus );
 	// });
 
-	$.ajax({
-		url:'https://us12.api.mailchimp.com/3.0/lists/b891a37349/members',
-		type: 'POST',
-		headers: {
-			Authorization: 'apikey baa6a183159622c2810481cb35574337-us12',
-			'Content-Type': 'application/json'
-  		},
-		data: newObject,
-		dataType: 'jsonp',
-		crossDomain: true
-	}).done(function(response){
+	$.ajax(settings).done(function(response){
 		console.log('success', response);
 	}).fail(function(response){
 		console.log('error', response);	
