@@ -70,7 +70,7 @@ $("#signUpButton").click(function(){
 		username: 'any',
 		password: apiKey,
 		data: newObject,
-		dataType: 'json',
+		dataType: 'jsonp',
 		crossDomain: true
 	}).done(function(response){
 		console.log('success', response);
