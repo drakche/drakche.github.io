@@ -50,7 +50,8 @@ var settings = {
     "cache-control": "no-cache",
     "postman-token": "fb0da2d3-fe8c-f091-0ecb-88bde2f0520d"
   },
-  "data": newObject
+  "data": newObject,
+  dataType:"jsonp"
 }
 	// var request = $.ajax({
 	// 	url: "https://us12.api.mailchimp.com/3.0/lists/b891a37349/members",
