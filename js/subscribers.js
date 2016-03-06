@@ -34,33 +34,47 @@ $("#signUpButton").click(function(){
 	//object.surname = surname;
 	//object.email = email;
 	//object.userType = userType;
-
+	console.log(newObject);
 	var data = JSON.stringify(newObject);
-	alert(data);
+	console.log(data);
 
 	membersUrl = listUrl + "/members/";
 	user = "anystring:" + apiKey; 
 
-	var request = $.ajax({
-		url: "https://us12.api.mailchimp.com/3.0/lists/b891a37349/members",
-		method: "POST",
-		//beforeSend: function(xhr) { xhr.setRequestHeader("Authorization", "Basic " + btoa("apikey:" + apiKey)); },
-		headers: {"Authorization":"Basic " + btoa("api:" + apiKey)},
+	// var request = $.ajax({
+	// 	url: "https://us12.api.mailchimp.com/3.0/lists/b891a37349/members",
+	// 	method: "POST",
+	// 	//beforeSend: function(xhr) { xhr.setRequestHeader("Authorization", "Basic " + btoa("apikey:" + apiKey)); },
+	// 	headers: {"Authorization":"Basic " + btoa("api:" + apiKey)},
+	// 	data: newObject,
+	// 	dataType: 'jsonp',
+	// 	error: function(res, text){
+ //            alert('error' + res + "  " + text);
+ //        },
+	// 	success: function(){
+	// 		alert('sydsgffds');
+	// 	}
+	// });
+
+	// request.done(function(msg) {
+	// 	alert( "Request done: " + msg );
+	// });
+
+	// request.fail(function(jqXHR, textStatus) {
+	// 	alert( "Request failed: " + textStatus );
+	// });
+
+	$.ajax({
+		url:'https://us12.api.mailchimp.com/3.0/lists/b891a37349/members',
+		type: 'POST',
+		username: 'any',
+		password: apiKey,
 		data: newObject,
-		dataType: 'jsonp',
-		error: function(res, text){
-            alert('error' + res + "  " + text);
-        },
-		success: function(){
-			alert('sydsgffds');
-		}
-	});
-
-	request.done(function(msg) {
-		alert( "Request done: " + msg );
-	});
-
-	request.fail(function(jqXHR, textStatus) {
-		alert( "Request failed: " + textStatus );
+		dataType: 'json',
+		crossDomain: true
+	}).done(function(response){
+		console.log('success', response);
+	}).fail(function(response){
+		console.log('error', response);	
 	});
 });
