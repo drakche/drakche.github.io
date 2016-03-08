@@ -111,6 +111,22 @@
 	}
 	.btn-medium {
 		padding:11px 50px;
+		-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+		-webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    background-color: #ff4c4c;
+		color:$color-white;
+		&:hover {
+			color: #fff;
+	    background-color: #d2322d;
+	    border-color: #ac2925;
+		}
 	}
 }
 //modal
@@ -129,5 +145,81 @@
 	.dropdown {
 		text-align:left;
 		margin-left:20%;
+	}
+}
+#hero_customer {
+		background:url('../i/content/hero3.jpg') no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 height:100vh;
+	 .title_customer {
+		 text-align:left;
+		 position:absolute;
+		 top:50%;
+		 color:$color-white;
+	 }
+ h1 {
+
+		 font-size:300%;
+		 font-weight: 300;
+		 letter-spacing: 3px;
+		 margin-bottom:50px;
+	 }
+
+}
+#steps_user {
+	text-align:center;
+}
+#why_us {
+	text-align:center;
+	h2 {
+		margin-bottom:40px;
+	}
+	h3 {
+		margin-bottom:20px;
+		color:$color-red;
+	}
+	p {
+		text-align:justify;
+		line-height:145%;
+	}
+}
+#behind_scene {
+	text-align:left;
+	background:#a93232;
+	color:$color-white;
+	padding:0;
+	h2 {
+		margin-bottom:0px;
+		border:none;
+		&:after {
+			display:none;
+		}
+	}
+
+	p {
+		text-align:justify;
+		width:85%;
+	}
+	#behind_img {
+		display:block;
+		width:100%;
+		float:left;
+	}
+}
+#join_users {
+		background:#a93232;
+		color:#eee;
+		#signup_today {
+		margin-top:50px;
+		background:transparent;
+		border:1px solid #eee;
+		&:hover {
+			border:1px solid #e6e6e6;
+			background:#e6e6e6;
+			color:$color-red;
+		}
 	}
 }
