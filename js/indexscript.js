@@ -1,16 +1,16 @@
 
-// nav transparent changer
-  $('#mission').waypoint(function(direction){
-          if(direction == 'down'){
-              $('nav').addClass('nav-solid');
+
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 10 ) {
+              $('.navbar').addClass('nav-solid');
               $('.notification-bar').css('display', 'none');
               $('.navbar-inverse').css('top', '0');
           } else {
-              $('nav').removeClass('nav-solid');
+              $('.navbar').removeClass('nav-solid');
           }
-      }, {
-          offset: '95%'
-      });
+        });
 
 
     $(function() {
@@ -36,11 +36,13 @@
         }
         });
 
-      $('.navbar-toggle').on('click', function(){
-        $('.navbar-inverse').addClass('nav-solid');
-
-
-    });
+        $('.navbar-toggle').click(function(){
+        if( $(this).hasClass('collapsed') ){
+          $('.navbar-inverse').addClass('nav-solid');
+        }else{
+          $('.navbar-inverse').removeClass('nav-solid');
+        }
+  });
 // notification-bar
     $(".notification-bar").slideDown();
     $(".navbar-inverse").animate({

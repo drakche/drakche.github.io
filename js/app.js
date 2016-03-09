@@ -1,16 +1,16 @@
 
 // nav transparent changer
-    $('#why_us').waypoint(function(direction){
-            if(direction == 'down'){
-                $('nav').addClass('nav-solid');
-            } else {
-                $('nav').removeClass('nav-solid');
-            }
-        }, {
-            offset: '95%'
-        });
-
-
+      $(document).ready(function() {
+      // Transition effect for navbar
+      $(window).scroll(function() {
+        // checks if window is scrolled more than 500px, adds/removes solid class
+        if($(this).scrollTop() > 10 ) {
+            $('.navbar').addClass('nav-solid');
+        } else {
+            $('.navbar').removeClass('nav-solid');
+        }
+      });
+});
 
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
@@ -35,6 +35,10 @@
         }
         });
 
-      $('.navbar-toggle').on('click', function() {
-        $('.navbar-inverse').addClass('nav-solid');
-    });
+        $('.navbar-toggle').click(function(){
+        if( $(this).hasClass('collapsed') ){
+          $('.navbar-inverse').addClass('nav-solid');
+        }else{
+          $('.navbar-inverse').removeClass('nav-solid');
+        }
+      });
