@@ -171,22 +171,7 @@
 }
 #steps_user {
 	text-align:center;
-	h2 {
-		margin-bottom:50px;
-	}
-	.unslider-arrow {
-		display:none;
-	}
 }
-#steps_user .my-slider ul li {
-	.mobile_user_img {
-		width:30%;
-	}
-	.mobile_user_paragraph {
-		text-align:justify;
-	}
-}
-
 #why_us {
 	text-align:center;
 	h2 {
@@ -203,7 +188,7 @@
 }
 #behind_scene {
 	text-align:left;
-	background:$color-redusers;
+	background:#a93232;
 	color:$color-white;
 	padding:0;
 	h2 {
@@ -225,7 +210,7 @@
 	}
 }
 #join_users {
-		background:$color-redusers;
+		background:#a93232;
 		color:#eee;
 		#signup_today {
 		margin-top:50px;

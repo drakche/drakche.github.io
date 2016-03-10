@@ -1,16 +1,17 @@
 
 // nav transparent changer
-      $(document).ready(function() {
-      // Transition effect for navbar
-      $(window).scroll(function() {
-        // checks if window is scrolled more than 500px, adds/removes solid class
-        if($(this).scrollTop() > 10 ) {
-            $('.navbar').addClass('nav-solid');
+$('#mission').waypoint(function(direction){
+        if(direction == 'down'){
+            $('nav').addClass('nav-solid');
+            $('.notification-bar').css('display', 'none');
+            $('.navbar-inverse').css('top', '0');
         } else {
-            $('.navbar').removeClass('nav-solid');
+            $('nav').removeClass('nav-solid');
         }
-      });
-});
+    }, {
+        offset: '95%'
+    });
+
 
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
@@ -35,10 +36,20 @@
         }
         });
 
-        $('.navbar-toggle').click(function(){
-        if( $(this).hasClass('collapsed') ){
-          $('.navbar-inverse').addClass('nav-solid');
-        }else{
-          $('.navbar-inverse').removeClass('nav-solid');
-        }
-      });
+      $('.navbar-toggle').on('click', function(){
+        $('.navbar-inverse').addClass('nav-solid');
+
+
+    });
+// notification-bar
+$(".notification-bar").delay(1750).slideDown();
+$(".navbar-inverse").delay(1750).animate({
+  'top': '77px'}, 400
+);
+
+$('#close').click(function(){
+  $('.notification-bar').fadeOut();
+  $('.navbar-inverse').animate({
+    'top': '0'}, 400
+  );
+});
