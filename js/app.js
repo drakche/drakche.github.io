@@ -1,16 +1,15 @@
 
 // nav transparent changer
-      $(document).ready(function() {
+  $(document).ready(function() {
       // Transition effect for navbar
       $(window).scroll(function() {
-        // checks if window is scrolled more than 500px, adds/removes solid class
         if($(this).scrollTop() > 10 ) {
             $('.navbar').addClass('nav-solid');
         } else {
             $('.navbar').removeClass('nav-solid');
         }
       });
-});
+    });
 
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
@@ -42,3 +41,7 @@
           $('.navbar-inverse').removeClass('nav-solid');
         }
       });
+
+      jQuery(document).ready(function($) {
+			$('.my-slider').unslider();
+		});
