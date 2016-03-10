@@ -7803,7 +7803,29 @@ footer {
 
   #select-options {
     width: 60%;
-    margin-left: 20%; } }
+    margin-left: 20%; }
+
+  #why_us p {
+    width: 90%;
+    margin-left: 5%; }
+
+  #behind_scene h2 {
+    text-align: center;
+    margin-top: 25px; }
+  #behind_scene p {
+    margin-left: 5%; }
+  #behind_scene h3 {
+    margin-left: 5%; }
+
+  section {
+    padding: 50px 0; }
+
+  #hero_customer .title_customer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; } }
 @media (max-width: 1200px) {
   #hero video {
     display: none; }
