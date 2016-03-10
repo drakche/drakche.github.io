@@ -7820,12 +7820,14 @@ footer {
   section {
     padding: 50px 0; }
 
-  #hero_customer .title_customer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; } }
+  #hero_customer {
+    background: url("../i/content/hero3.jpg") no-repeat center center; }
+    #hero_customer .title_customer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center; } }
 @media (max-width: 1200px) {
   #hero video {
     display: none; }
