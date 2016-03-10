@@ -7429,7 +7429,7 @@ html.remodal-is-locked {
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden !important; }
 
 body {
   margin: 0;
@@ -7827,7 +7827,13 @@ footer {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      text-align: center; } }
+      text-align: center; }
+
+  #steps_user .my-slider ul li .mobile_user_paragraph {
+    text-align: justify;
+    font-size: 85%;
+    width: 80%;
+    margin-left: 10%; } }
 @media (max-width: 1200px) {
   #hero video {
     display: none; }
