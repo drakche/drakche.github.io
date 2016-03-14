@@ -7740,6 +7740,14 @@ video {
     font-size: 150%;
     color: white; }
 
+.footer_list {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: left;
+  font-size: 75%;
+  font-weight: 400; }
+
 #hero {
   text-align: center;
   height: 100vh;
@@ -7966,14 +7974,18 @@ footer {
   background: #333;
   padding: 50px 0;
   text-align: center; }
-  #footer-links p {
-    text-align: justify;
-    font-size: 75%; }
+  #footer-links .footer_list {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    font-size: 75%;
+    font-weight: 400; }
+    #footer-links .footer_list li {
+      margin-bottom: 10px; }
   #footer-links h4 {
     text-align: left;
     color: #fff; }
-  #footer-links #links-row {
-    margin: 0 auto; }
   #footer-links a {
     text-decoration: none;
     color: #d3d3d3; }
