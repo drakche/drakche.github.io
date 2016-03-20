@@ -1,4 +1,0 @@
-// Convert px to rem
-@function getRem($sizeValue: 1.6) {
-	@return ($sizeValue / 10) + rem;
-}
