@@ -7628,7 +7628,7 @@ video {
 
 .remodal {
   background: rgba(0, 0, 0, 0.45); }
-  .remodal #logo-dasp {
+  .remodal .logo-dasp {
     margin-bottom: 15px; }
   .remodal .form-group {
     width: 60%;
