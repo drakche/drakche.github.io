@@ -7546,6 +7546,8 @@ video {
             transform: translate(-50%, -50%);
     text-align: center;
     color: #fff; }
+    #hero .title-hero a {
+      color: #fff; }
     #hero .title-hero h1 {
       text-transform: uppercase;
       font-size: 300%;
@@ -7617,6 +7619,8 @@ video {
   transition: background-color 0.2s;
   background-color: #ff4c4c;
   color: #fff; }
+  #users .btn-medium a {
+    color: #fff; }
   #users .btn-medium:hover {
     color: #fff;
     background-color: #d2322d;
@@ -7703,7 +7707,7 @@ video {
       background: #e6e6e6;
       color: #d9534f; }
 
-#logo-dasp {
+.logo-dasp {
   width: 100px; }
 
 .navbar-inverse {
