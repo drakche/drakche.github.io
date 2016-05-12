@@ -7427,7 +7427,8 @@ html.remodal-is-locked {
   background: #a93232;
   cursor: default; }
 
-html, body {
+body,
+html {
   max-width: 100%;
   overflow-x: hidden !important; }
 
@@ -7450,7 +7451,7 @@ h2:after {
   background-color: #d9534f;
   content: "";
   width: 100px;
-  margin: 10px auto 0 auto; }
+  margin: 10px auto 0; }
 
 h2 {
   font-size: 280%;
