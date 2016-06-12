@@ -42,6 +42,13 @@
         }
       });
 
-      jQuery(document).ready(function($) {
-			$('.my-slider').unslider();
-		});
+      $(document).ready(function(){
+      $('.my-slider').slick({
+        dots: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        infinite:false,
+
+      });
+    });
